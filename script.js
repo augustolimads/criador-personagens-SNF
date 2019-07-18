@@ -105,7 +105,7 @@ function motivacao(alinhamento){
             return 'Manter a ordem a despeito das forças que poderiam subvertê-la'
             break
         case 'CAÓTICO':
-            return 'Semear a discódia ou destruir um simbolo da ordem'
+            return 'Semear a discódia ou destruir um símbolo da ordem'
             break
     }
 }
@@ -165,24 +165,6 @@ function viciosFunc(alinhamento){
             return viciosTemp
             break
 
-    }
-}
-//--------------------------------------------------------------------------------------
-function movFunc(raça){
-    switch(raça){
-        case 'HUMANO':
-            return 'Escolha entre: ...'
-            break
-        case 'HALFLING':
-            return 'Escolha entre: ...'
-            break
-        case 'ANÃO':
-            return 'Escolha entre: ...'
-            break
-        case 'ELFO':
-            return 'Escolha entre: ...'
-            break
-        
     }
 }
 //--------------------------------------------------------------------------------------

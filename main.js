@@ -9,7 +9,6 @@ function gerar(){
     const motivaçãoRand = motivacao(alinhamentoRand)
     const virtudesRand = virtudesFunc(alinhamentoRand)
     const viciosRand = viciosFunc(alinhamentoRand)
-    const movimentoVar = movFunc(raçasRand)
     const aparenciaRand = aparenciaFunc(classeRand)
     const sexoRand = listaSexo[randomize(listaSexo)]
     const nomeRand = nomeFunc(sexoRand, raçasRand)
@@ -35,7 +34,6 @@ function gerar(){
     motivação.innerText = motivaçãoRand
     virtude.innerText = virtudesRand.toString()
     vícios.innerText = viciosRand.toString()
-    movOrigem.innerText = movimentoVar
     aparência.innerText = aparenciaRand.toString()
     sexo.innerText = sexoRand
     força.innerText = forçaRand
