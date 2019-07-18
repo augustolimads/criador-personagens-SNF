@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerando um saqueador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>SAQUEADORES NA FRONTEIRA</h1>
+    <input type="button" value="Gerar novo personagem!" class="botao" onclick="gerar()">    
+    <section id="box">
+        <div class="coluna">
+            <h3><span id="nome">Nome</span> - <span id="raça">raça</span> <span id="classe">classe</span> <span id="alinhamento"></span></h3>
+            <table>
+                <tr>
+                    <th>Sorte</th><td id="sorte">3</td>
+                    <th>Armadura</th><td id="armadura">0</td>
+                    <th>PV</th><td id="pv">0</td>
+                </tr>
+                <tr>
+                    <th>Força</th><td id="for">3</td>
+                    <th>Destreza</th><td id="des">3</td>
+                    <th>Constituição</th><td id="con">3</td>
+                </tr>
+                <tr>
+                    <th>Inteligência</th><td id="int">3</td>
+                    <th>Sabedoria</th><td id="sab">3</td>
+                    <th>Carisma</th><td id="car">3</td>
+                </tr>                
+            </table>
+            <p>Movimento de origem: <span id="origem">Escolha...</span></p>
+            <p>Motivação: <span id="motivação">x</span></p>
+            <p>Virtudes: <span class="virtude">x</span></p>
+            <p>Vícios: <span class="vício">x</span></p>
+            <p>Aparência: <span id="sexo"></span>, <span id="aparência">x</span></p>
+        </div>
+        <div class="coluna">            
+            <h3>Equipamentos: </h3>
+            <h5>Quantidade/nome/peso</h5>
+            <p>Pratas: <span id="pratas">x</span></p>
+            <p>Carga <span id="cargaMax">X</span></p>
+            <ul id="equipamentos">
+                <li></li>
+            </ul>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+    <script src="listas.js"></script>
+    <script src="variaveisdom.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+h1{
+    margin:5px;
+}
+.botao{
+    margin-top:20px;
+    font-size: 1.5em;
+    padding: 10px;
+}
+#box{
+    display: flex;
+    flex-grow: 1;
+    width: 700px;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.coluna{
+    padding: 10px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+p{
+    font-weight: bold;
+}
+span{
+    font-weight: normal;
+}
+h3{
+    font-size: 1.3em;
+}
+h3 span{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    margin: 10px 0px 10px 0px;
+}
+th{
+    text-align: right;
+    height: 25px;
+}
+tr:first-of-type{
+    background-color: gray;
+    color:white;
+}
+td{
+    width: 30px;
+    text-align: center
+}
