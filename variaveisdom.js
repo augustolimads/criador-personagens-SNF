@@ -1,5 +1,5 @@
 /* ### VARIAVEIS ### */
-const visibilidade = document.querySelector("section#box") 
+const visibilidade = document.querySelector("section.box") 
 const nome = document.querySelector("span#nome")
 const sexo = document.querySelector("span#sexo")
 const classe = document.querySelector("span#classe")
