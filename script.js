@@ -282,3 +282,35 @@ function cargaMaxFunc(classe, força){
     }
 }
 //---------------------------------------------------------------------
+//Equipamentos
+function listarEquipFunc(equipTemp){ //listar os equipamentos gerados para o html
+    for(i in equipTemp){
+        let linha = document.createElement("li")
+        linha.innerText = equipTemp[i]
+        equipamentos.appendChild(linha)
+    }
+}
+
+function equipFunc(classe){
+    let equipTemp = [] 
+    switch(classe){
+        case 'GUERREIRO':
+            equipTemp.push('mochila', 'saco de dormir', 'moringa', 'faca', 'arma favorita', `${dadosFunc(1,6)} rações`, `${listaBugiganga[randomize(listaBugiganga)]}`, `${listaVestimentaGue[randomize(listaVestimentaGue)]}`, `${listaArmaduraGue[randomize(listaArmaduraGue)]}`, `${listaOutrosGue[randomize(listaOutrosGue)]}`)
+            listarEquipFunc(equipTemp)
+            break
+        case 'LADRÃO':
+            equipTemp.push('mochila', 'moringa', 'faca', `${dadosFunc(1,6)} rações`, `${listaBugiganga[randomize(listaBugiganga)]}`, `${listaVestimentaLad[randomize(listaVestimentaLad)]}`, `${listaArmaLad[randomize(listaArmaLad)]}`, `${listaOutrosLad[randomize(listaOutrosLad)]}`)
+            listarEquipFunc(equipTemp)
+            break
+        case 'CLÉRIGO':
+            equipTemp.push('sacola com pedras de funda','símbolo sagrado','moringa', `${dadosFunc(1,6)} rações`, `${listaBugiganga[randomize(listaBugiganga)]}`, `${listaVestimentaCler[randomize(listaVestimentaCler)]}`, `${listaArmaCler[randomize(listaArmaCler)]}`, `${listaOutrosCler[randomize(listaOutrosCler)]}`)
+            listarEquipFunc(equipTemp)
+            break
+        case 'FEITICEIRO':
+            equipTemp.push('sacola com pedras de funda', 'grimório', 'moringa', `${dadosFunc(1,6)} rações`, `${listaBugiganga[randomize(listaBugiganga)]}`, `${listaVestimentaFei[randomize(listaVestimentaFei)]}`, `${listaCabeçaFei[randomize(listaCabeçaFei)]}`, `${listaArmaFei[randomize(listaArmaFei)]}`, `${listaOutrosFei[randomize(listaOutrosFei)]}`)
+            listarEquipFunc(equipTemp)
+            break
+    }
+}
+
+

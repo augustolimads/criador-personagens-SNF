@@ -1,5 +1,7 @@
 /* ############################ ### MAIN ### ######################################## */
 function gerar(){
+    //reset pra não acumular
+    equipamentos.innerHTML = ''
     //caracteristicas
     const classeRand = listaClasse[randomize(listaClasse)]
     const listaRaças = raçasClasses(classeRand)
@@ -23,7 +25,13 @@ function gerar(){
     let pvRand = pvFunc(classeRand, constituiçãoRand)
     //equipamentos
     const cargaMaxRand = cargaMaxFunc(classeRand, forçaRand)
-    const pratasRand = dadosFunc(1, 6) + dadosFunc(1, 6) + sorteRand
+    //moedas
+    if (classeRand == 'LADRÃO'){
+        pratasRand = dadosFunc(1, 6) + dadosFunc(1, 6) + (2 * sorteRand)
+    } else{
+        pratasRand = dadosFunc(1, 6) + dadosFunc(1, 6) + sorteRand
+    }
+    equipFunc(classeRand)
     
 
     //exibindo no HTML
@@ -46,6 +54,7 @@ function gerar(){
     pv.innerText = pvRand
     cargaMax.innerText = cargaMaxRand
     pratas.innerText = pratasRand
+
     visibilidade.style.visibility = "visible"
     
 }
