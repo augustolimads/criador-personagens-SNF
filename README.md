@@ -20,9 +20,6 @@
 
 <h4>A adicionar:</h4>
 <ul>
-	<li>completar listas de nomes</li>
-	<li>completar listas de aparência</li>
-	<li>completar listas de virtudes e vícios</li>
 	<li>Gerador individual de nomes, atributos, aparência, virtudes, etc</li>
 	<li>Gerador de magias</li>
 	<li>Gerador de aventuras</li>

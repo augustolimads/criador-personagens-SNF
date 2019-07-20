@@ -252,16 +252,16 @@ function modFunc(numero){
 function pvFunc(classe, constituição){
     switch (classe){
         case 'GUERREIRO':
-            return 10 + modFunc(constituição)
+            return dadosFunc(1,10) + constituição
             break
         case 'LADRÃO':
-            return 6 + modFunc(constituição)
+            return dadosFunc(1,6) + constituição
             break
         case 'CLÉRIGO':
-            return 8 + modFunc(constituição)
+            return dadosFunc(1,8) + constituição
             break
         case 'FEITICEIRO':
-            return 4 + modFunc(constituição)
+            return dadosFunc(1,4) + constituição
             break
     }
 }
