@@ -21,3 +21,8 @@ const aparência = document.querySelector("span#aparência")
 const pratas = document.querySelector("span#pratas")
 const cargaMax = document.querySelector("span#cargaMax")
 let equipamentos = document.querySelector("ul#equipamentos")
+/* --------------------------------------------------------------------------- */
+//GERADOR DIVERSO
+const oraculo = document.querySelector("p#oraculo")
+
+/* ########################################################################### */

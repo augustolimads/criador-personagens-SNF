@@ -58,4 +58,11 @@ function gerar(){
     visibilidade.style.visibility = "visible"
     
 }
-/* #################################################################### */
+/* #### GERADOR DIVERSO ################################################################ */
+function gerarGeral(){
+    //variaveis
+    const oraculoRand = oraculoFunc()
+
+    //exibindo
+    oraculo.innerText = oraculoRand
+}

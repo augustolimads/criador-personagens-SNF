@@ -312,5 +312,17 @@ function equipFunc(classe){
             break
     }
 }
-
-
+/* #### GERADOR DIVERSO #################################################################### */
+//ORACULO
+function oraculoFunc(){
+    const dados = dadosFunc(1,6) + dadosFunc(1,6)
+    if(dados >= 10){
+       return 'sim, e...'
+    } else if(dados >= 7 && dados < 10){
+        return 'sim, mas...'
+    } else if(dados >= 3 && dados < 7){
+        return 'não, mas...'
+    } else if(dados == 2){
+        return 'não, e...'
+    }
+}
