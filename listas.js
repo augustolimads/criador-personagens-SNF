@@ -1037,6 +1037,7 @@ const listaForma = [
     'teia',
     'tempestade',
     'tentáculo',
+    'unha',
     'véu',
     'voz'
 ]
