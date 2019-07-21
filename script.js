@@ -336,3 +336,19 @@ function missaoFunc(){
     desastre.innerHTML = listaDesastre[randomize(listaDesastre)]
     textura.innerHTML = listaTextura[randomize(listaTextura)]
 }
+//MAGIA
+function magiaFunc(){
+    let listaMagia = [
+        `${listaForma[randomize(listaForma)]} ${listaElemento[randomize(listaElemento)]}`,
+        `${listaForma[randomize(listaForma)]} ${listaAdjetivo[randomize(listaAdjetivo)]}`,
+        `${listaElemento[randomize(listaElemento)]} ${listaAdjetivo[randomize(listaAdjetivo)]}`,
+        `${listaForma[randomize(listaForma)]} de ${listaElemento[randomize(listaElemento)]}`,
+        `${listaForma[randomize(listaForma)]} de ${listaForma[randomize(listaForma)]}  ${listaAdjetivo[randomize(listaAdjetivo)]}`,
+        `${listaForma[randomize(listaForma)]} de ${listaElemento[randomize(listaElemento)]} ${listaAdjetivo[randomize(listaAdjetivo)]}`,
+        `${listaForma[randomize(listaForma)]} ${listaAdjetivo[randomize(listaAdjetivo)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`,
+        `${listaElemento[randomize(listaElemento)]} ${listaAdjetivo[randomize(listaAdjetivo)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`,
+        `${listaForma[randomize(listaForma)]} de ${listaElemento[randomize(listaElemento)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`,
+        `${listaForma[randomize(listaForma)]} ${listaElemento[randomize(listaElemento)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`
+    ]
+    magia.innerHTML = listaMagia[randomize(listaMagia)]
+}
