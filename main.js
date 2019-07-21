@@ -62,7 +62,7 @@ function gerar(){
 function gerarGeral(){
     //variaveis
     const oraculoRand = oraculoFunc()
-
+    missaoFunc()
     //exibindo
     oraculo.innerText = oraculoRand
 }

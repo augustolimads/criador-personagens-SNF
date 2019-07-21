@@ -326,3 +326,13 @@ function oraculoFunc(){
         return 'não, e...'
     }
 }
+//MISSAO
+function missaoFunc(){
+    verbo.innerHTML = listaVerbo[randomize(listaVerbo)]
+    substantivo.innerHTML = listaSubstantivo[randomize(listaSubstantivo)]
+    verbo2.innerHTML = listaVerbo[randomize(listaVerbo)]
+    substantivo2.innerHTML = listaSubstantivo[randomize(listaSubstantivo)]
+    finalidade.innerHTML = listaFinalidade[randomize(listaFinalidade)]
+    desastre.innerHTML = listaDesastre[randomize(listaDesastre)]
+    textura.innerHTML = listaTextura[randomize(listaTextura)]
+}

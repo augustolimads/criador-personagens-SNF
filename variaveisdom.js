@@ -24,5 +24,12 @@ let equipamentos = document.querySelector("ul#equipamentos")
 /* --------------------------------------------------------------------------- */
 //GERADOR DIVERSO
 const oraculo = document.querySelector("p#oraculo")
+const verbo = document.querySelector("span.verbo")
+const substantivo = document.querySelector("span.substantivo")
+const verbo2 = document.querySelector("span.verbo2")
+const substantivo2 = document.querySelector("span.substantivo2")
+const finalidade = document.querySelector("span.finalidade")
+const desastre = document.querySelector("span.desastre")
+const textura = document.querySelector("span.textura")
 
 /* ########################################################################### */

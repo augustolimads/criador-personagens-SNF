@@ -875,3 +875,65 @@ const listaOutrosFei = [
     'sacola de livros',
     `componentes mágicos ${dadosFunc(1,6)} usos`
 ]
+/* ######################################################################## */
+//AVENTURA
+const listaVerbo = [
+    'PROTEGER',
+    'DESTRUIR',
+    'CAPTURAR',
+    'CONVENCER',
+    'ROUBAR',
+    'CONTROLAR',
+    'RESGATAR',
+    'ENCONTRAR',
+    'DETER',
+    'DESCOBRIR',
+    'ESCAPAR',
+    'SOBREVIVER'
+]
+const listaSubstantivo = [
+    'HUMANÓIDE',
+    'CRIATURA(ANIMAL, MONSTRO, SER MÁGICO)',
+    'GRUPO(GOVERNO, SEITA, REUNIÃO, ORGANIZAÇÃO)',
+    'ARTEFATO(COMUM, MÁGICO, VALIOSO, MECÂNICO)',
+    'LUGAR(ÁREA, REGIÃO, ASSENTAMENTO, QUARTO)',
+    'EVENTO(CELEBRAÇÃO, DESAFIO, FENÔMENO NATURAL/MÁGICO)',
+]
+const listaComplicacao = [
+    'SEM SER VISTO',
+    'A TEMPO',
+    'CONFUSÃO',
+    'DILEMA',
+    'TRAIÇÃO',
+    'DESVANTAGEM',
+    'LOCAL ESPECÍFICO',
+    'CAOS'
+]
+const listaFinalidade = [
+    'AMOR',
+    'DEVER',
+    'PODER',
+    'ÓDIO'
+]
+const listaDesastre = [
+    'TIRANIA',
+    'PESTILÊNCIA',
+    'DESTRUIÇÃO',
+    'USURPAÇÃO',
+    'EMPOBRECIMENTO',
+    'CAOS EXCESSIVO'
+]
+const listaTextura = [
+    'SOCIEDADE',
+    'NOBREZA',
+    'CRIMINALIDADE',
+    'DIVINO',
+    'PROFANO',
+    'ASSOMBRAMENTO',
+    'SELVAGERIA',
+    'MILITARISMO',
+    'RUÍNAS',
+    'ALIENÍGENA',
+    'MÁGICO',
+    'TECNOLÓGICO'
+]
