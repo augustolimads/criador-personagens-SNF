@@ -151,8 +151,8 @@ ul li{
 }
 .card{
     background: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     display: flex;
     margin: 8px;
     padding: 10px;
@@ -162,8 +162,11 @@ ul li{
     text-align: center;
     flex-direction: column;
 }
+.card:first-child{
+    background: silver;
+}
 .card h2{
-    margin-bottom: 30%;
+    margin-bottom: 10px;
 }
 .botao2{
     height: 50px;
@@ -186,7 +189,23 @@ ul li{
     border: none;
     outline: none;
 }
-
+#ancora{
+    background: black;
+    width: 50px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#ancora a{
+    text-decoration: none;
+    padding:100%;
+    color: white;
+}
 /*################################################################################*/
 @media(max-width: 700px){
     body{
