@@ -338,7 +338,8 @@ function missaoFunc(){
 }
 //MAGIA
 function magiaFunc(){
-    const listaMagia = [
+        magia.innerHTML = ''
+    let listaMagia = [
         `${listaForma[randomize(listaForma)]} ${listaElemento[randomize(listaElemento)]}`,
         `${listaForma[randomize(listaForma)]} ${listaAdjetivo[randomize(listaAdjetivo)]}`,
         `${listaElemento[randomize(listaElemento)]} ${listaAdjetivo[randomize(listaAdjetivo)]}`,
@@ -350,12 +351,7 @@ function magiaFunc(){
         `${listaForma[randomize(listaForma)]} de ${listaElemento[randomize(listaElemento)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`,
         `${listaForma[randomize(listaForma)]} ${listaElemento[randomize(listaElemento)]} de ${listaPrefixo[randomize(listaPrefixo)]}${listaSufixo[randomize(listaSufixo)]}`
     ]
-    magia.innerHTML = 
-    `
-        <p>*${listaMagia[randomize(listaMagia)]}</p>
-        <p>*${listaMagia[randomize(listaMagia)]}</p>
-        <p>*${listaMagia[randomize(listaMagia)]}</p>
-        <p>*${listaMagia[randomize(listaMagia)]}</p>
-        <p>*${listaMagia[randomize(listaMagia)]}</p>
-    `
+        let linha = document.createElement("p")
+            linha.innerText = `>${listaMagia[randomize(listaMagia)]}`
+        magia.appendChild(linha)
 }

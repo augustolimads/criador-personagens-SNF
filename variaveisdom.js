@@ -31,5 +31,5 @@ const substantivo2 = document.querySelector("span.substantivo2")
 const finalidade = document.querySelector("span.finalidade")
 const desastre = document.querySelector("span.desastre")
 const textura = document.querySelector("span.textura")
-const magia = document.querySelector("p#magia")
+let magia = document.querySelector("div#magia")
 /* ########################################################################### */
