@@ -1,6 +1,6 @@
 # saqueadores-na-fronteira
 <h3>Gerador de personagens para o RPG suplemento do Dungeon World - Saqueadores na Fronteira</h3>
-<h2>Site do projeto: https://augustolimads.github.io/saqueadoresnafronteira.github.io/ </h2>
+<h2>Site do projeto:  https://augustolimads.github.io/saqueadores-na-fronteira-pessoal/ </h2>
 <hr>
 <h3>Situação do projeto</h3>
 <h4>Adicionados e funcionando:</h4>
